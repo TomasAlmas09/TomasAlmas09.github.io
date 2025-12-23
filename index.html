@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículo Web de Tomás Almas - Profissional de TI e Desenvolvimento">
+    <title>Tomás Almas | Currículo Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Tomás Almas</h1>
+            <h2>Técnico de Informática | Desenvolvimento Júnior</h2>
+            <p class="hero-tagline">Focado em SQL, C#, e Sistemas de Informação.</p>
+            
+            <div class="social-links">
+                <a href="mailto:coloca.o.teu.email@aqui.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://www.linkedin.com/in/tom%C3%A1s-almas09/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/[TEU-USERNAME]" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#skills">Competências</a></li>
+                <li><a href="#formacao">Formação</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container main-content">
+
+        <section id="sobre" class="section">
+            <h3 class="section-title">Sobre Mim</h3>
+            <p>Profissional de TI em início de carreira, com sólida formação técnica em Programação e Gestão de Sistemas Operativos. Atualmente a trabalhar na área de sistemas de bilhética e mobilidade, com interesse em aprofundar conhecimentos em desenvolvimento backend (C#, SQL) e análise de dados. Pragmático, focado na resolução de problemas e em constante aprendizagem.</p>
+        </section>
+
+        <section id="experiencia" class="section">
+            <h3 class="section-title">Experiência Profissional</h3>
+
+            <div class="card">
+                <div class="card-header">
+                    <h4>Técnico de Informática / Apoio a Sistemas</h4>
+                    <span class="date">Presente</span>
+                </div>
+                <div class="company">Card4B Systems, S.A.</div>
+                <ul>
+                    <li>Suporte e manutenção de sistemas de bilhética e soluções de mobilidade urbana.</li>
+                    <li>Interação com bases de dados SQL para análise e resolução de incidentes.</li>
+                    <li>Apoio na implementação de novas funcionalidades e despiste de problemas de hardware/software.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h4>Estágio Curricular (Nível 4)</h4>
+                    <span class="date">2020 - 2023</span>
+                </div>
+                <div class="company">Card4B Systems, S.A.</div>
+                <p>Estágio integrado no curso profissional, realizado ao longo dos 10º, 11º e 12º anos.</p>
+                <ul>
+                    <li>Contacto inicial com o ambiente empresarial de desenvolvimento de software.</li>
+                    <li>Participação em tarefas de suporte a bases de dados (SQL Server) e pequenos desenvolvimentos web (PHP, HTML, JS).</li>
+                    <li>Apoio à equipa de helpdesk e configuração de equipamentos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h3 class="section-title">Competências Técnicas</h3>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Backend & Base de Dados</h4>
+                    <div class="tags">
+                        <span class="tag">SQL (SQL Server)</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">Análise de Dados</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Frontend & Web</h4>
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Sistemas & Outros</h4>
+                    <div class="tags">
+                        <span class="tag">Hardware e Redes</span>
+                        <span class="tag">Windows/Linux</span>
+                        <span class="tag">Helpdesk/Suporte</span>
+                        <span class="tag">Git (Básico)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="section">
+            <h3 class="section-title">Formação Académica</h3>
+            <div class="card">
+                <div class="card-header">
+                    <h4>Técnico de Programação e Gestão de Sistemas Operativos</h4>
+                    <span class="date">2019 - 2023</span>
+                </div>
+                <div class="company">Escola Secundária António Carvalho Figueiredo</div>
+                <p>Curso Profissional de Nível 4 (QNQ), com forte componente prática em desenvolvimento de software, redes e gestão de bases de dados.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Tomás Almas. Desenvolvido por mim.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
